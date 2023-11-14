@@ -37,7 +37,11 @@ async fn index() -> ActixResult<Markup> {
         (head("Web Page Title"))
 
         body hx-boost {
-            h1 {"Getting Started"}
+            main {
+                header {
+                    h1 {"Getting Started"}
+                }
+            }
         }
 
         (footer())
