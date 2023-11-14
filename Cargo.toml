@@ -1,0 +1,12 @@
+[package]
+name = "hypermedia_systems_book"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.6.2"
+actix-rt = "2.9.0"
+actix-web = "4.4.0"
+maud = { version = "0.25.0", features = ["actix-web"] }
