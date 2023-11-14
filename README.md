@@ -2,7 +2,7 @@
 
 This is an example repo of how to set up a basic project using the following technologies:
 
-- OpenProps CSS
+- OpenProps CSS (using OpenProps Normalize)
 - HTMX
 - Maud: for making HTML/HTMX templates
 - Actix-Web: for server rendering of templates
