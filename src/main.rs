@@ -26,7 +26,7 @@ fn head(title: &str) -> Markup {
 fn footer() -> Markup {
     html! {
         footer .footer {
-            "This is your footer"
+            "This is a footer"
         }
     }
 }
@@ -34,10 +34,10 @@ fn footer() -> Markup {
 #[get("/")]
 async fn index() -> ActixResult<Markup> {
     Ok(html! {
-        (head("Hypermedia Systems Book"))
+        (head("Web Page Title"))
 
         body hx-boost {
-            h1 {"Welcome to Hypermedia Systems"}
+            h1 {"Getting Started"}
         }
 
         (footer())
